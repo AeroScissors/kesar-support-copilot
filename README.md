@@ -7,6 +7,16 @@ Each thread is one test email. Violet threads go to a human. [Watch in HD](./med
 - **Recording (4 min):** [Watch the demo](https://drive.google.com/file/d/1hjlDIX_NdERnJWSwMRhU7Q6htD63y9Xv/view?usp=sharing)
 - **Google Sheet:** [Kesar Support](https://docs.google.com/spreadsheets/d/1g1en2_Pjmt4jjtV_yRW6PCQKstr42VVEfqqz_yhuxDk/edit)
 - **Test results:** [TEST_REPORT.md](./TEST_REPORT.md)
+- **Better designs and issues I found:** [DESIGN_NOTES.md](./DESIGN_NOTES.md)
+
+> [!IMPORTANT]
+> **What I would do differently, and what I noticed in the assignment** ([full notes, with tests](./DESIGN_NOTES.md))
+>
+> - **Prevent the email:** 32% of this inbox only asks where an order is. A tracking page beats an AI reply.
+> - **Skip the agent:** in 20 of 22 replies its tool choice was predictable, so code could fetch the facts first.
+> - **Date bug in `SETUP.md`:** in n8n's default timezone, the formula can accept a day-8 return.
+> - **Test gap:** both refused returns are late *and* opened, so a bot that forgets one rule still passes all 25.
+> - **Script bug:** `send_test_emails.py` can stop at E09 on Windows. In my test, 16 emails were never sent.
 
 ## 1. Summary
 
