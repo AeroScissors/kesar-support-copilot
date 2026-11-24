@@ -1,4 +1,4 @@
-# Kesar & Co. Support Copilot — YOUR NAME
+# Kesar & Co. Support Copilot — Yuvraj Singh Aswal
 
 [![Motion video: 25 saffron threads, one per customer email, sorted by intent and grouped into tickets](./media/kesar-copilot.gif)](./media/kesar-copilot.mp4)
 
@@ -12,7 +12,7 @@ Each thread is one test email. Violet threads go to a human. [Watch in HD](./med
 
 - **What I built:** a workflow that reads a support email, finds the order, drafts a reply, makes a ticket and logs a row. Risky emails go to a human. Nothing is sent automatically.
 - **Platform and LLM:** self-hosted n8n 2.48.8 and Google Gemini (free tier), `gemini-3.5-flash-lite`.
-- **Time spent:** ADD HOURS
+- **Time spent:** about 1 hour
 - **What works:** intent, ticket and human flag are right for all 25 emails. JSON was valid first time for all 25.
 - **What doesn't:** 23 of 25 emails are fully right. E23 says "24 business days" instead of hours, and E03 gets a gift detail wrong. E02 and E09 are borderline.
 

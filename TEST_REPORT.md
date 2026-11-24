@@ -1,6 +1,6 @@
 # Test Report — Kesar & Co. Support Copilot
 
-**Candidate name:** YOUR NAME
+**Candidate name:** Yuvraj Singh Aswal
 **Platform used:** n8n 2.48.8, self-hosted
 **LLM(s) used:** Google Gemini free tier. v1: `gemini-3.1-flash-lite` (classify, temperature 0) and `gemini-3.5-flash-lite` (draft, temperature 0.2). v2: `gemini-3.5-flash-lite` for both, with `gemini-3.1-flash-lite` as the classifier's retry model.
 
