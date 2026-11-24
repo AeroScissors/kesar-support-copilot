@@ -4,7 +4,7 @@
 
 Each thread is one test email. Violet threads go to a human. [Watch in HD](./media/kesar-copilot.mp4)
 
-- **Recording (5 min):** ADD LINK
+- **Recording (4 min):** [Watch the demo](https://drive.google.com/file/d/1hjlDIX_NdERnJWSwMRhU7Q6htD63y9Xv/view?usp=sharing)
 - **Google Sheet:** [Kesar Support](https://docs.google.com/spreadsheets/d/1g1en2_Pjmt4jjtV_yRW6PCQKstr42VVEfqqz_yhuxDk/edit)
 - **Test results:** [TEST_REPORT.md](./TEST_REPORT.md)
 
@@ -161,7 +161,7 @@ Team Kesar
 
 ## 8. How I used AI tools
 
-- **Claude Code** wrote most of the code, prompts, tests, the motion video and the first drafts of these documents. **Gemini** runs inside the workflow.
+- **Claude Code** wrote most of the code, prompts, tests, the motion video and the first drafts of these documents. It also captured and edited the demo recording; the voice is mine. **Gemini** runs inside the workflow.
 - **I** chose n8n and Gemini, set up the accounts and keys, approved each run, spotted a failed run, and decided what to fix and when to stop.
 - **Where AI was wrong:** a prompt fix for E05 broke E04, and it first scored replies without checking their length.
 

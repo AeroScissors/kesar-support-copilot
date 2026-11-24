@@ -4,7 +4,7 @@
 **Platform used:** n8n 2.48.8, self-hosted
 **LLM(s) used:** Google Gemini free tier. v1: `gemini-3.1-flash-lite` (classify, temperature 0) and `gemini-3.5-flash-lite` (draft, temperature 0.2). v2: `gemini-3.5-flash-lite` for both, with `gemini-3.1-flash-lite` as the classifier's retry model.
 
-All rows are in the [Google Sheet](https://docs.google.com/spreadsheets/d/1g1en2_Pjmt4jjtV_yRW6PCQKstr42VVEfqqz_yhuxDk/edit): `Audit Log` and `Tickets` are the final v2 run. `Audit Log v1`, `v2 trial` and `v2 run 2` are the earlier runs, kept as they were.
+All rows are in the [Google Sheet](https://docs.google.com/spreadsheets/d/1g1en2_Pjmt4jjtV_yRW6PCQKstr42VVEfqqz_yhuxDk/edit): `Audit Log` and `Tickets` are the final v2 run. `Audit Log v1`, `v2 trial` and `v2 run 2` are the earlier runs, kept as they were. The `demo` tabs hold the emails sent in the recording.
 
 ---
 
