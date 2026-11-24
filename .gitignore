@@ -1,0 +1,8 @@
+.env
+.env.*
+*.pem
+*credentials*.json
+capital-*.json
+node_modules/
+__pycache__/
+media/still_*.png
