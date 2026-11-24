@@ -10,7 +10,7 @@ Each thread is one test email. Violet threads go to a human. [Watch in HD](./med
 - **Better designs and issues I found:** [DESIGN_NOTES.md](./DESIGN_NOTES.md)
 
 > [!IMPORTANT]
-> **What I would do differently, and what I noticed in the assignment** ([full notes, with tests](./DESIGN_NOTES.md))
+> **What I would do differently, and what I noticed in the assignment** ([full notes](./DESIGN_NOTES.md))
 >
 > - **Prevent the email:** 32% of this inbox only asks where an order is. A tracking page beats an AI reply.
 > - **Skip the agent:** in 20 of 22 replies its tool choice was predictable, so code could fetch the facts first.

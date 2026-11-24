@@ -1,6 +1,6 @@
 # Design notes
 
-What I would build differently, and what I noticed in the assignment. I tested each point and say how.
+What I would build differently, and what I noticed in the assignment. The ideas in Part 1 come from measuring my own run; I have not built them. In Part 2 I ran the code where I could.
 
 ## Part 1. What I would do instead
 
